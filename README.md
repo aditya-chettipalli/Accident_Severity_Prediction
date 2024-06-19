@@ -36,24 +36,20 @@ Feature Selection: Removed unnecessary columns.
 
 Transforming Categorical Data: Converted 'True/False' data to '1/0' format.
 
-Data Splitting
+Data Splitting:
 
 The dataset was split into training and testing subsets with an 80:20 ratio to ensure comprehensive model assessment.
 
 
-Predictive Analysis
+Predictive Analysis:
 
 Various classification algorithms were implemented using PySpark, Spark SQL, and Python's scikit-learn and MLlib libraries, including:
 
-Logistic Regression
-
-GBT Classifier (Gradient-Boosted Trees)
-
-Random Forest
-
+Logistic Regression,
+GBT Classifier (Gradient-Boosted Trees),
+Random Forest,
 Decision Tree
-
-Exploratory Data Analysis (EDA)
+,Exploratory Data Analysis (EDA)
 
 After data cleaning and preprocessing, key statistics were visualized:
 
