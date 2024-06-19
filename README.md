@@ -46,10 +46,15 @@ Predictive Analysis
 Various classification algorithms were implemented using PySpark, Spark SQL, and Python's scikit-learn and MLlib libraries, including:
 
 Logistic Regression
+
 GBT Classifier (Gradient-Boosted Trees)
+
 Random Forest
+
 Decision Tree
+
 Exploratory Data Analysis (EDA)
+
 After data cleaning and preprocessing, key statistics were visualized:
 
 Accident Distribution by Streets, Cities, and States: Identified areas with higher accident occurrences.
