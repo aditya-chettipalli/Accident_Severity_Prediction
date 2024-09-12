@@ -14,7 +14,7 @@ Analyzing the impact of road infrastructure and safety measures on accident rate
 Exploring geographical variability and accident hotspots.
 
 ## Description of the Data
-The dataset, obtained from Kaggle (https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data), includes detailed records of traffic accidents across 49 states in the United States from 2016 to 2022. It combines information from law enforcement agencies, transportation departments, and traffic cameras/sensors. The dataset consists of 47 columns and millions of records, covering a wide range of accident-related information, including:
+The dataset, obtained from Kaggle (https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data), includes detailed records of traffic accidents across 49 states in the United States from 2016 to 2022. It combines information from law enforcement agencies, transportation departments, and traffic cameras/sensors. The dataset consists of 47 columns and 77 million of records, covering a wide range of accident-related information, including:
 
 Identification (ID)
 Source
@@ -30,7 +30,7 @@ Traffic Conditions
 Twilight Information
 # Methodology
 ## Data Cleaning and Preprocessing
-Handling Missing Values: Replaced null values with 0 or the mean value for specific columns.
+Handling Missing Values: Replaced null values with the mean values for specific columns.
 
 Feature Selection: Removed unnecessary columns.
 
@@ -49,7 +49,6 @@ Logistic Regression,
 GBT Classifier (Gradient-Boosted Trees),
 Random Forest,
 Decision Tree
-,Exploratory Data Analysis (EDA)
 
 After data cleaning and preprocessing, key statistics were visualized:
 
